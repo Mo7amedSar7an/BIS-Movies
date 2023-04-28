@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #202124
+}
+
+.container{
+    position: relative;
+    min-height: 100vh;
+    max-width: fit-content;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 20px;
+ background: #202124; 
+border-bottom: 1px solid #3c4043;
+}
+h1{
+    color: #ff9800;
+    align-self: center;
+    margin-left: 25rem;
+    background: transparent;
+    letter-spacing: 3px;
+}
+
+header {
+    background-color: #363636;
+    display: flex;
+}
+#logo img {
+    background-position: 50% 25%;
+    background-size: cover;
+    height: 138px;
+    display: inline-block;
+    display: inline-block !important;
+  }
+.search-box{
+    margin: 3rem;
+    margin-left: 12rem;
+    background-color: transparent;
+    border: 2px solid #ff9800;
+    border-radius: 50px;
+    color: #fff;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+.search-box input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 0 15px 0 45px;
+    color: #fff;
+    border-radius: 6px;
+}
+.search-box i{
+    position: absolute;
+    z-index: 2;
+    color: #999;
+    top: 50%;
+    left: 15px;
+    font-size: 20px;
+    transform: translateY(-50%);
+}
+.search-box input::placeholder {
+    color: #ff9800;
+}
+
+.search-box input:focus {
+    background-color: transparent;
+    outline: none;
+}
+
+
+.container .movies .image-box{
+    position: relative;
+    height: 300px;
+    width: 210px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.movies{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.movies .image-box{
+    margin: 8px;
+    object-fit: cover;
+    display: inline-block;
+}
+.movies .image-box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    transition: transform 0.2s linear;
+    display: block;
+}
+.image-box:hover img{
+    transform: scale(1.05);
+}
+
+.image-box h6{
+    position: absolute;
+    bottom: 0px;
+    left: 2px;
+    color: #ff9800;
+    font-size: 15px;
+    text-transform: capitalize;
+    background: transparent;
+}
+
+.image-box .description {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-box:hover .description {
+    opacity: 1;
+  }
+  
+  .image-box .description p {
+    padding: 20px;
+    margin: 0;
+  }
+
+footer.footer {
+    height: 300px;
+    width: 100%;
+    background-color:#202124f5;
+    position: relative;
+}
+
+.social {
+    font-size: 19px;
+    float: right;
+    color: #fff;
+    padding-right: 30px;
+}
+
+.footer{
+    width: 100%;
+    padding: 50px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+    border-bottom: 1px solid #3c4043;
+}
+footer div{
+    text-align: center;
+}
+
+.col-1 h3 {
+    margin-left: 132px;
+}
+
+.col-1 button{
+    margin-left: 100px;
+}
+
+.col-2{
+    flex-grow: 2;
+    margin-left: 223px;
+}
+.col-2 h3{
+    margin-left: 52px;
+}
+
+.col-2 .copyright{
+    margin-top: 35px;
+    margin-right: 185px;
+    font-weight: bold;
+}
+
+
+
+.footer div h3 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: #ff9800;
+}
+
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border: 2px solid #ff9800;
+    border-radius: 6px;
+    color: #ff9800;
+}
+
+form button{
+    background: transparent;
+    border: 2px solid #ff9800;
+    color: #ff9800;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+
+}
+
+.social-icons{
+    margin-top: 22px;
+
+}
+
+.social-icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+.copyright{
+    text-align: center;
+    font-size: 27px;
+    color: #ff9800;
+    font-weight: bold;
+}
+
+
